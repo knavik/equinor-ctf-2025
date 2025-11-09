@@ -36,20 +36,29 @@ Steps:
  - **[Yarr!](/writeups/web/Yarr!)**
  - **[Of CORS I Can Help!](/writeups/web/Of%20CORS%20I%20Can%20Help!)**
 	 - [Kernel Carnage](/writeups/web/Of%20CORS%20I%20Can%20Help!/Kernel%20Carnage)  
+	 - [sifi](/writeups/web/Of%20CORS%20I%20Can%20Help!/sifi)  
+	 - [bwnfools](/writeups/web/Of%20CORS%20I%20Can%20Help!/bwnfools)  
+	 - [synapse_burnout](/writeups/web/Of%20CORS%20I%20Can%20Help!/synapse_burnout)  
  - **[ScriptMe](/writeups/web/ScriptMe)**
  - **[EPT Cinemas](/writeups/web/EPT%20Cinemas)**
+	 - [sifi](/writeups/web/EPT%20Cinemas/sifi)  
  - **[Secretadmin](/writeups/web/Secretadmin)**
  - **[shop-8](/writeups/web/shop-8)**
+	 - [nørds](/writeups/web/shop-8/nørds)  
+	 - [sifi](/writeups/web/shop-8/sifi)  
  - **[Sigma2KQL Converter](/writeups/web/Sigma2KQL%20Converter)**
 	 - [Iku-toppene](/writeups/web/Sigma2KQL%20Converter/Iku-toppene)  
  - **[CloudNotes](/writeups/web/CloudNotes)**
+	 - [big](/writeups/web/CloudNotes/big)  
  - **[shop-7](/writeups/web/shop-7)**
  - **[Spin-For-Flag](/writeups/web/Spin-For-Flag)**
+	 - [sifi](/writeups/web/Spin-For-Flag/sifi)  
  - **[breadcrumbs](/writeups/web/breadcrumbs)**
 ### crypto
  - **[Hyperactive](/writeups/crypto/Hyperactive)**
  - **[Make-a-String](/writeups/crypto/Make-a-String)**
  - **[420BasedIt](/writeups/crypto/420BasedIt)**
+	 - [bwnfools](/writeups/crypto/420BasedIt/bwnfools)  
  - **[Srstokken](/writeups/crypto/Srstokken)**
  - **[Post Quantum Resistant Crypto for Enterprises](/writeups/crypto/Post%20Quantum%20Resistant%20Crypto%20for%20Enterprises)**
  - **[pkcstiming](/writeups/crypto/pkcstiming)**
@@ -57,9 +66,11 @@ Steps:
 ### boot2root
  - **[cve-safari](/writeups/boot2root/cve-safari)**
  - **[PotatoHead (user)](/writeups/boot2root/PotatoHead%20(user))**
+	 - [RumbleInTheJungle](/writeups/boot2root/PotatoHead%20(user)/RumbleInTheJungle)  
  - **[FOMO (root)](/writeups/boot2root/FOMO%20(root))**
  - **[FOMO (user)](/writeups/boot2root/FOMO%20(user))**
  - **[PotatoHead (root)](/writeups/boot2root/PotatoHead%20(root))**
+	 - [RumbleInTheJungle](/writeups/boot2root/PotatoHead%20(root)/RumbleInTheJungle)  
 ### sanity
  - **[EPTBOX](/writeups/sanity/EPTBOX)**
  - **[(in)Sanity](/writeups/sanity/(in)Sanity)**
@@ -75,6 +86,7 @@ Steps:
  - **[Zippy](/writeups/misc/Zippy)**
  - **[Cubeguessr](/writeups/misc/Cubeguessr)**
  - **[Agents](/writeups/misc/Agents)**
+	 - [bwnfools](/writeups/misc/Agents/bwnfools)  
  - **[Buffy the fortune teller](/writeups/misc/Buffy%20the%20fortune%20teller)**
 ### reversing
  - **[Frozen Labyrinth](/writeups/reversing/Frozen%20Labyrinth)**
@@ -95,6 +107,7 @@ Steps:
  - **[Home Intrusion 2](/writeups/forensics/Home%20Intrusion%202)**
  - **[Insecure Exfil](/writeups/forensics/Insecure%20Exfil)**
  - **[Censoring](/writeups/forensics/Censoring)**
+	 - [abyss](/writeups/forensics/Censoring/abyss)  
  - **[Insider Threat](/writeups/forensics/Insider%20Threat)**
  - **[Home Intrusion](/writeups/forensics/Home%20Intrusion)**
 ### pwn
