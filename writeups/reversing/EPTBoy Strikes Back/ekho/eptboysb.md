@@ -1,9 +1,16 @@
 # EPTBOY STRIKES BACK
+
+
 ![alt text](desc.png)
+
+
+
 Apparently, there is more to EPTBOY than only a space shooting game. The built rom for the game only creates the space shooter, but looking at the files, there seems to be an entire rpg hidden here, with characters to interact with, and a lot of background and scene files.
 Grepping for "flag" yields a lot of random lines, but one in particular seems very interesting
 
+
 ![](grep.png) 
+
 
 One of the npcs using script `actor_20_interact.s` performs
 ```
@@ -57,7 +64,10 @@ Because the flag format is known, I can assume that xoring `EPT{` with the first
 
 Value 5 is missing, but the entire key row is in ascii range and says
 `dzie5uje za przejscie gry`
+
 This is polish and 5 can be inferred as k
 
 Xoring each letter in the game list with each in the key list gives the flag.
+
+
 Flag: `EPT{well_played_or_revd?}`
