@@ -123,8 +123,8 @@ Steps:
 	 - [bwnfools](/writeups/reversing/FlagPrinter/bwnfools)  
  - **[EPTBoy](/writeups/reversing/EPTBoy)**
 	 - [bootplug](/writeups/reversing/EPTBoy/bootplug)  
-	 - [ekho](/writeups/reversing/EPTBoy/ekho)
-     - [B00S](/writeups/reversing/EPTBoy/B00S)
+	 - [B00S](/writeups/reversing/EPTBoy/B00S)  
+	 - [ekho](/writeups/reversing/EPTBoy/ekho)  
  - **[Dark Side of the Shader](/writeups/reversing/Dark%20Side%20of%20the%20Shader)**
 ### onsite
  - **[Quiz-About](/writeups/onsite/Quiz-About)**
