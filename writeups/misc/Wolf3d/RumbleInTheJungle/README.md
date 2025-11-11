@@ -8,4 +8,5 @@ Author: iLoop
 ### Writeup
 Given the option of either playing or hacking the game, I chose playing.
 After running around and killing all the Nazis, the flag appears when the level is completed.
+
 ![](image.png)
