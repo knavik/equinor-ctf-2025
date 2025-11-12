@@ -1,7 +1,8 @@
 # 🔥 Hyperactive 🔥
 ### Team: Iku-toppene 🐮
 **Author:** Zukane
-**Original URL:** https://zukane.github.io/hyperactive/
+
+Original URL: https://zukane.github.io/hyperactive/
 
 ### Challenge overview
 
@@ -59,11 +60,11 @@ sage: cyclotomic_polynomial(7)
 x^6 + x^5 + x^4 + x^3 + x^2 + x + 1
 ```
 
-So, $p = \Phi_{7}(a)$. The script then builds the hyperelliptic curve $H: y^{2} + y = \alpha x^{7}$ over $\mathbb{F}_{p}$, and its Jacobian $J(\mathbb{F}_{p})$. The flag is encoded in the x-coordinate of point $P \in H(\mathbb{F}_{p})$ , and the flag is encrypted by scaling the divisor-class $J(P)$ by $e=0x1337deadbeef1337$ in the Jacobian group. We are given the pair $(u,v)$ as the ciphertext.
+So, $p = \Phi_{7}(a)$. The script then builds the hyperelliptic curve $H: y^{2} + y = \alpha x^{7}$ over $\mathbb{F_p}$, and its Jacobian $J(\mathbb{F_p})$. The flag is encoded in the x-coordinate of point $P \in H(\mathbb{F_p})$ , and the flag is encrypted by scaling the divisor-class $J(P)$ by $e=0x1337deadbeef1337$ in the Jacobian group. We are given the pair $(u,v)$ as the ciphertext.
 
 ##### Recovering the order of the Jacobian Group
 
-Since the ciphertext is generated as $e \cdot J(P)$, we could recover $J(P)$ if we knew the order of the Jacobian group $\#J(\mathbb{F}_{p})$ by calculating the modular inverse of $e$. Then, we would take one root of the decrypted $u(x)$ to get the original $x$. However, we do not know the order of the Jacobian group, and it is unfortunately not as simple as calling `.order()` in SageMath.
+Since the ciphertext is generated as $e \cdot J(P)$, we could recover $J(P)$ if we knew the order of the Jacobian group #$J(\mathbb{F}_{p})$ by calculating the modular inverse of $e$. Then, we would take one root of the decrypted $u(x)$ to get the original $x$. However, we do not know the order of the Jacobian group, and it is unfortunately not as simple as calling `.order()` in SageMath.
 
 We have $p = \Phi_{7}(a)$, which splits in the cyclotomic field $K$:
 
@@ -112,13 +113,13 @@ J1 = prod([galois_embedding(i,pi) for i in [4,5,6]])
 Following this paper by Koblitz: https://www.cambridge.org/core/services/aop-cambridge-core/content/view/800A4343A2955C7D446B69063EB07BFC/S0008439500005786a.pdf, the order can be calculated as: 
 
 $$
-\large \#J(\mathbb{F}_{p}) = \prod^{2g}_{i=1}(1 - \alpha_{i}) = \lvert Norm_{K/\mathbb{Q}} (1 + J(\chi,\chi)) \rvert 
+\large \text{\\#}J(\mathbb{F}_{p}) = \prod^{2g}_{i=1}(1 - \alpha_{i}) = \lvert Norm_{K/\mathbb{Q}} (1 + J(\chi,\chi)) \rvert 
 $$
 
-Since we only have $J(\chi,\chi)$ determined up to a 7th root of unity and sign, we can sweep the 14 candidates for the correct $\#J(\mathbb{F}_{p})$
+Since we only have $J(\chi,\chi)$ determined up to a 7th root of unity and sign, we can sweep the 14 candidates for the correct $\text{\\#}J(\mathbb{F}_{p})$
 
 $$
-\large \#J(\mathbb{F}_{p}) = \lvert Norm_{K/\mathbb{Q}} (1 \pm \zeta^{k} \cdot J_{1})\rvert 
+\large \text{\\#}J(\mathbb{F}_{p}) = \lvert Norm_{K/\mathbb{Q}} (1 \pm \zeta^{k} \cdot J_{1})\rvert 
 $$
 
 If the order is co-prime with $e$, we can invert the scalar and compute $C \cdot e^{-1} = J(P)$, then take the roots as mentioned before and get the original $x$.
