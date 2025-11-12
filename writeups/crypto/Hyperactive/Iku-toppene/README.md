@@ -64,7 +64,7 @@ So, $p = \Phi_{7}(a)$. The script then builds the hyperelliptic curve $H: y^{2} 
 
 ##### Recovering the order of the Jacobian Group
 
-Since the ciphertext is generated as $e \cdot J(P)$, we could recover $J(P)$ if we knew the order of the Jacobian group #$J(\mathbb{F}_{p})$ by calculating the modular inverse of $e$. Then, we would take one root of the decrypted $u(x)$ to get the original $x$. However, we do not know the order of the Jacobian group, and it is unfortunately not as simple as calling `.order()` in SageMath.
+Since the ciphertext is generated as $e \cdot J(P)$, we could recover $J(P)$ if we knew the order of the Jacobian group $\text{\\#}J(\mathbb{F_p})$ by calculating the modular inverse of $e$. Then, we would take one root of the decrypted $u(x)$ to get the original $x$. However, we do not know the order of the Jacobian group, and it is unfortunately not as simple as calling `.order()` in SageMath.
 
 We have $p = \Phi_{7}(a)$, which splits in the cyclotomic field $K$:
 
